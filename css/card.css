@@ -1,0 +1,65 @@
+.card {
+  background-color: #f9f9f9;
+}
+.card > .content {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--length-margin) 0;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-large-size);
+}
+.card > .content > .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--blue);
+}
+.card > .content > .title > h3 {
+  font-size: var(--font-medium-size);
+  font-weight: var(--font-semi-bold-weight);
+}
+.card > .content > .title > h2 {
+  font-size: var(--font-large-size);
+  font-weight: var(--font-bold-weight);
+}
+
+.card > .content > article {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 15px;
+
+  font-size: var(--font-small-size);
+}
+
+.card > .content > article > img {
+  width: 450px;
+}
+
+.write {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: var(--gap-x-small-size);
+}
+
+.card > .content > article > .write > strong {
+  color: var(--blue);
+  font-weight: var(--font-bold-weight);
+}
+
+.card > .content > article > .write > em {
+  font-weight: var(--font-medium-weight);
+  text-align: start;
+  line-height: 27px;
+}
+
+.card > .content > article > .write > em > strong {
+  color: var(--dark-blue);
+  font-weight: var(--font-bold-weight);
+}

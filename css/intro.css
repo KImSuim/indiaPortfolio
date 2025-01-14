@@ -1,0 +1,32 @@
+.intro {
+  background-color: white;
+}
+.intro > article {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--length-margin);
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-medium-size);
+}
+.intro > article > h2 {
+  font-size: var(--font-large-size);
+  font-weight: var(--font-bold-weight);
+  color: var(--green);
+}
+
+.intro > article > p {
+  font-size: var(--font-small-size);
+  font-weight: var(--font-medium-weight);
+  line-height: 30px;
+}
+
+.intro > article > p > strong {
+  font-weight: var(--font-bold-weight);
+  color: var(--orange);
+}

@@ -1,0 +1,35 @@
+:root {
+  /* 폰트 크기 */
+  --font-x-small-size: 15px;
+  --font-small-size: 23px;
+  --font-medium-size: 35px;
+  --font-large-size: 60px;
+  --font-x-large-size: 130px;
+
+  /* 색상 */
+  --orange: #ff671f;
+  --green: #158e5d;
+  --blue: #38a3d6;
+  --dark-blue: #0175aa;
+  --white: #ffffff;
+  --black: #333333;
+
+  /* 위 아래 마진 */
+  --length-margin: 80px;
+
+  /* gap 마진 */
+  --gap-x-small-size: 10px;
+  --gap-small-size: 20px;
+  --gap-medium-size: 30px;
+  --gap-large-size: 40px;
+  --gap-x-large-size: 100px;
+
+  /* 최대 너비 */
+  --max-width: 1100px;
+
+  /* 폰트 굵기 */
+  --font-regular-weight: 300;
+  --font-medium-weight: 500;
+  --font-semi-bold-weight: 600;
+  --font-bold-weight: 700;
+}

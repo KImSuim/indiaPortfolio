@@ -1,0 +1,15 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--black);
+
+  padding: 30px 0;
+}
+
+footer > h3 {
+  color: var(--orange);
+  font-size: var(--font-medium-size);
+  font-weight: var(--font-bold-weight);
+}
