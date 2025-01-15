@@ -28,7 +28,7 @@
 .jumbotron > h1 {
   height: 100%;
 
-  font-size: var(--font-x-large-size);
+  font-size: var(--font-xx-large-size);
   font-weight: var(--font-bold-weight);
   color: white;
   display: flex;

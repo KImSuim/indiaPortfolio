@@ -20,7 +20,7 @@
   color: var(--blue);
 }
 
-article {
+.content > article {
   display: flex;
   gap: var(--gap-x-large-size);
   width: 100%;

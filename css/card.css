@@ -31,10 +31,15 @@
 
 .card > .content > article {
   display: flex;
+  /* flex-direction: row-reverse; */
   /* flex-direction: column; */
-  gap: 15px;
+  gap: var(--gap-x-small-size);
 
   font-size: var(--font-small-size);
+}
+.card_reverse {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .card > .content > article > img {

@@ -28,5 +28,5 @@
 
 .intro > article > p > strong {
   font-weight: var(--font-bold-weight);
-  color: var(--orange);
+  color: var(--green);
 }

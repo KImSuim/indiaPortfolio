@@ -27,6 +27,87 @@
     transform: translateX(-6px) rotate(-1.2deg);
   }
 }
+
+@media screen and (max-width: 1200px) {
+  /* navbar */
+  nav {
+    max-width: 1160px;
+    padding: 30px;
+  }
+  .burger {
+    display: block;
+  }
+  .list {
+    display: none;
+  }
+  /* jumbotron */
+  main > .jumbotron > h1 {
+    height: 100%;
+
+    font-size: var(--font-x-large-size);
+    font-weight: var(--font-bold-weight);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: shadow-drop-2-center 8s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+      infinite both;
+  }
+  .jumbotron > h1 > .title {
+    animation: text-pop-up-top 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite
+      both;
+  }
+  /* card */
+  .card > .content {
+    padding: 30px;
+  }
+  .card > .content > article {
+    flex-direction: column;
+    gap: var(--gap-large-size);
+  }
+  .write {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    text-align: center;
+    /* gap: var(--gap-x-small-size); */
+  }
+  /* skill */
+  .skills > .content {
+    max-width: 1160px;
+    padding: 30px;
+  }
+  .skills > .content > article {
+    flex-direction: column;
+  }
+
+  .skills > .content > article > .languageBox > figure {
+    width: 350px;
+    height: 190px;
+    gap: 30px;
+  }
+  .languageBox > figure > img {
+    width: 123px;
+    height: 139px;
+  }
+
+  .skills > .content > article > .toolBox > figure {
+    width: 430px;
+    height: 190px;
+    gap: 20px;
+  }
+  .toolBox > figure > img {
+    width: 120px;
+    height: 120px;
+  }
+
+  /* archive */
+  .content > article {
+    flex-direction: column;
+  }
+}
+
 .skills {
   background-color: white;
 }
